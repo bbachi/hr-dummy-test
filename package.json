@@ -7,7 +7,7 @@
     "start": "./node_modules/.bin/ng serve --host 0.0.0.0 --port 8000 --disable-host-check",
     "pretest": "npm install",
     "test": "./node_modules/.bin/ng test",
-    "lint": "./node_modules/.bin/ng lint"
+    "lint": "./node_modules/.bin/ng lint",
     "e2e": "ng e2e"
   },
   "private": true,
