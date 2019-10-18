@@ -2,11 +2,12 @@
   "name": "hackerrank",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "node_modules/@angular/cli/bin/ng test",
-    "lint": "ng lint",
+    "ng": "./node_modules/.bin/ng",
+    "prestart": "npm install",
+    "start": "./node_modules/.bin/ng serve --host 0.0.0.0 --port 8000 --disable-host-check",
+    "pretest": "npm install",
+    "test": "./node_modules/.bin/ng test",
+    "lint": "./node_modules/.bin/ng lint"
     "e2e": "ng e2e"
   },
   "private": true,
